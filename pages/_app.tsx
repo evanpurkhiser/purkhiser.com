@@ -1,4 +1,5 @@
 import type { AppProps } from "next/app";
+import Head from "next/head";
 import Link from "next/link";
 
 import Logo from "../components/Logo";
@@ -8,6 +9,10 @@ import "../styles/globals.css";
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <main>
+      <Head>
+        <title>Purkhiser Electronics</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <header>
         <Logo />
         <nav>
