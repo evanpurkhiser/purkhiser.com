@@ -3,7 +3,16 @@
   "name": "purkhiser.com",
   "version": "0.1.0",
   "private": true,
-  "packageManager": "pnpm@10.15.1",
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": "^24.15.0"
+    },
+    "packageManager": {
+      "name": "pnpm",
+      "version": "11.0.0"
+    }
+  },
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
