@@ -3,16 +3,6 @@
   "name": "purkhiser.com",
   "version": "0.1.0",
   "private": true,
-  "devEngines": {
-    "runtime": {
-      "name": "node",
-      "version": "^24.15.0"
-    },
-    "packageManager": {
-      "name": "pnpm",
-      "version": "11.0.0"
-    }
-  },
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
@@ -20,5 +10,20 @@
   },
   "dependencies": {
     "astro": "^4.0.0"
+  },
+  "devDependencies": {
+    "@evanpurkhiser/oxc-config": "^0.8.0",
+    "oxfmt": "^0.47.0",
+    "oxlint": "^1.62.0"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "11.0.0"
+    },
+    "runtime": {
+      "name": "node",
+      "version": "^24.15.0"
+    }
   }
 }
